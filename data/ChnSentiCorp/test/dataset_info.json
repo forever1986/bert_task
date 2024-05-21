@@ -1,0 +1,65 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "chn_senti_corp",
+  "dataset_size": 3873407,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lansinuote/ChnSentiCorp@b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/train-00000-of-00001-02f200ca5f2a7868.parquet": {
+      "num_bytes": 2156438,
+      "checksum": null
+    },
+    "hf://datasets/lansinuote/ChnSentiCorp@b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/validation-00000-of-00001-405befbaa3bcf1a2.parquet": {
+      "num_bytes": 275802,
+      "checksum": null
+    },
+    "hf://datasets/lansinuote/ChnSentiCorp@b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/test-00000-of-00001-5372924f059fe767.parquet": {
+      "num_bytes": 275253,
+      "checksum": null
+    }
+  },
+  "download_size": 2707493,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "negative",
+        "positive"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6580900,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3107561,
+      "num_examples": 9600,
+      "dataset_name": "chn_senti_corp"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 385167,
+      "num_examples": 1200,
+      "dataset_name": "chn_senti_corp"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 380679,
+      "num_examples": 1200,
+      "dataset_name": "chn_senti_corp"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
